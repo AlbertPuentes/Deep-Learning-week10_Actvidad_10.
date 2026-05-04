@@ -16,11 +16,7 @@
 
 ## 4. Limitaciones y Áreas de Mejora
 * **Dependencia del Umbral:** El éxito de la clasificación final depende del umbral (0.5). En aplicaciones reales de alta seguridad, este umbral debería ajustarse para minimizar los Falsos Positivos, incluso a riesgo de aumentar los Falsos Negativos.
-* **Sensibilidad al Entorno:** Aunque el modelo es robusto con rostros centrados, su desempeño podría degradarse con imágenes que contengan ruido de fondo o variaciones de iluminación extremas, lo que sugiere la necesidad de una etapa de preprocesamiento más agresiva o el uso de *Data Augmentation*.
-
-## 5. Reflexión Final
-La implementación demuestra que las **Redes Siamesas** son una solución potente y eficiente para problemas de verificación de identidad. La lógica de comparación por distancia es mucho más escalable que los clasificadores multiclase tradicionales, permitiendo una integración ágil en sistemas de reconocimiento facial en tiempo real.
-
+* **Sensibilidad al Entorno:** Aunque el modelo es robusto con rostros centrados, su desempeño podría degradarse con imágenes que contengan ruido de fondo o variaciones de iluminación extremas, lo que sugiere la necesidad de una etapa de preprocesamiento más agresiva o el uso de *Data Augmentation*
 
 
 ## Análisis de Desempeño
